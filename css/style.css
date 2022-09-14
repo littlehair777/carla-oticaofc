@@ -1,0 +1,235 @@
+/*==============================================
+[  Reference table  ]
+================================================
+
+:: Root
+:: Body
+:: Fonts
+:: Settings
+
+==============================================*/
+
+
+/***************************
+		 Root
+***************************/
+:root
+{
+    --bang-color-gradient: linear-gradient(to right, #ffffff 10%, #000000 100% );
+
+    --bang-color-gradient-primary: #ffffff;
+
+    --bang-color-gradient-secundary: #000000;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+/***************************
+		 Body
+***************************/
+* 
+{ padding: 0; margin: 0; border: none; }
+
+body
+{ background: whitesmoke; font-family: name_font, sans-serif; overflow: hidden; overflow-y: auto; }
+
+*::-moz-selection { background: var(--bang-color-gradient-primary); color: #fff; text-shadow: none; }
+::-moz-selection { background: var(--bang-color-gradient-primary); color: #fff; text-shadow: none; }
+::selection { background: var(--bang-color-gradient-primary); color: #fff; text-shadow: none; }
+
+
+/***************************
+		 Fonts
+***************************/
+@font-face 
+{ font-family: name_font; src: url(../fonts/);}
+
+.checkboxmodal{ 
+    display: none;
+}
+#click:checked + .section .container-close-modal{ 
+    display: block;
+}
+.section .container-close-modal{ 
+    position: fixed; 
+    height: auto;
+    display: none; 
+    bottom: 20px;
+	right: 28px;
+	filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.4));
+	border-radius: 4px;
+}
+.modal-wpp .open-modal .fa{
+	width: 65px;
+	height: 65px;
+	font-size: 45px;
+	padding-left: 1px;
+	background-color: chartreuse;
+	color: white;
+	border-radius: 100%;
+	position: fixed;
+	z-index: 99;
+	cursor: pointer;
+	transition: .5s;
+}
+.modal-wpp .open-modal .fa:hover{
+	background-color: white;
+	color: chartreuse;
+	filter: drop-shadow(0px 0px 4px #ddd);
+	transition: .5s;
+}
+
+.section .container-close-modal .header{
+	border-radius: 4px 4px 0px 0px;
+	background-color: chartreuse;
+	width: 100%;
+	height: auto;
+	display: grid;
+	grid-template-columns: 80% 20%;
+	color: white;
+	position: relative;
+}
+.section .container-close-modal .header .title{
+	text-align: left;
+	padding: 15px;
+}
+.section .container-close-modal .header .title span{
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+.section .container-close-modal .header .title .fa{
+	font-size: 35px;
+}
+.section .container-close-modal .header .close-modal .fa{
+	font-size: 32px;
+	text-align: center;
+	position: fixed;
+	top: 16px;
+	right: 12px;
+	z-index: 999;
+	color: white;
+}
+.section .container-close-modal .content{
+	background-color: aliceblue;
+	border-radius: 0px 0px 4px 4px;
+	padding-bottom: 15px;
+}
+.section .container-close-modal .content .text{
+	width: 90%;
+	height: auto;
+	transform: translate(12px, 15px);
+	font-size: 16px;
+	padding: 10px 0px 10px 0px;
+	background-color: white;
+	border-radius: 4px;
+	filter: drop-shadow(0px 0px 4px #ddd);
+	text-align: center;
+}
+.section .container-close-modal .content .chat{
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+.section .container-close-modal .content .chat .btn{
+	background-color: chartreuse;
+	padding: 10px 10px;
+	color: white;
+	margin-top: 30px;
+}
+.section .container-close-modal .content .chat .btn span{
+	font-size: 20px;
+}
+.section .container-close-modal .content .chat .btn .fa{
+	font-size: 25px;
+	margin-left: 5px;
+}
+
+/***************************
+		 Settings
+***************************/
+.mr-tp-05 { margin-top: 5px; }
+.mr-tp-10 { margin-top: 10px; }
+.mr-tp-15 { margin-top: 15px; }
+.mr-tp-20 { margin-top: 20px; }
+.mr-tp-25 { margin-top: 25px; }
+.mr-tp-30 { margin-top: 30px; }
+.mr-tp-35 { margin-top: 35px; }
+.mr-tp-40 { margin-top: 40px; }
+.mr-tp-45 { margin-top: 45px; }
+.mr-tp-50 { margin-top: 50px; }
+.mr-tp-55 { margin-top: 55px; }
+.mr-tp-60 { margin-top: 50px; }
+.mr-tp-65 { margin-top: 55px; }
+.mr-tp-70 { margin-top: 60px; }
+.mr-tp-75 { margin-top: 65px; }
+.mr-tp-80 { margin-top: 70px; }
+.mr-tp-85 { margin-top: 85px; }
+.mr-tp-90 { margin-top: 90px; }
+.mr-tp-95 { margin-top: 95px; }
+.mr-tp-100 { margin-top: 100px; }
+
+.mr-bt-05 { margin-bottom: 5px; }
+.mr-bt-10 { margin-bottom: 10px; }
+.mr-bt-15 { margin-bottom: 15px; }
+.mr-bt-20 { margin-bottom: 20px; }
+.mr-bt-25 { margin-bottom: 25px; }
+.mr-bt-30 { margin-bottom: 30px; }
+.mr-bt-35 { margin-bottom: 35px; }
+.mr-bt-40 { margin-bottom: 40px; }
+.mr-bt-45 { margin-bottom: 45px; }
+.mr-bt-50 { margin-bottom: 50px; }
+.mr-bt-55 { margin-bottom: 55px; }
+.mr-bt-60 { margin-bottom: 50px; }
+.mr-bt-65 { margin-bottom: 55px; }
+.mr-bt-70 { margin-bottom: 60px; }
+.mr-bt-75 { margin-bottom: 65px; }
+.mr-bt-80 { margin-bottom: 70px; }
+.mr-bt-85 { margin-bottom: 85px; }
+.mr-bt-90 { margin-bottom: 90px; }
+.mr-bt-95 { margin-bottom: 95px; }
+.mr-bt-100 { margin-bottom: 100px; }
+
+.mr-lf-05 { margin-left: 5px; }
+.mr-lf-10 { margin-left: 10px; }
+.mr-lf-15 { margin-left: 15px; }
+.mr-lf-20 { margin-left: 20px; }
+.mr-lf-25 { margin-left: 25px; }
+.mr-lf-30 { margin-left: 30px; }
+.mr-lf-35 { margin-left: 35px; }
+.mr-lf-40 { margin-left: 40px; }
+.mr-lf-45 { margin-left: 45px; }
+.mr-lf-50 { margin-left: 50px; }
+.mr-lf-55 { margin-left: 55px; }
+.mr-lf-60 { margin-left: 60px; }
+.mr-lf-65 { margin-left: 65px; }
+.mr-lf-70 { margin-left: 70px; }
+.mr-lf-75 { margin-left: 75px; }
+.mr-lf-80 { margin-left: 80px; }
+.mr-lf-85 { margin-left: 85px; }
+.mr-lf-90 { margin-left: 90px; }
+.mr-lf-95 { margin-left: 95px; }
+.mr-lf-100 { margin-left: 100px; }
+
+.mr-rg-05 { margin-right: 5px; }
+.mr-rg-10 { margin-right: 10px; }
+.mr-rg-15 { margin-right: 15px; }
+.mr-rg-20 { margin-right: 20px; }
+.mr-rg-25 { margin-right: 25px; }
+.mr-rg-30 { margin-right: 30px; }
+.mr-rg-35 { margin-right: 35px; }
+.mr-rg-40 { margin-right: 40px; }
+.mr-rg-45 { margin-right: 45px; }
+.mr-rg-50 { margin-right: 50px; }
+.mr-rg-55 { margin-right: 55px; }
+.mr-rg-60 { margin-right: 60px; }
+.mr-rg-65 { margin-right: 65px; }
+.mr-rg-70 { margin-right: 70px; }
+.mr-rg-75 { margin-right: 75px; }
+.mr-rg-80 { margin-right: 80px; }
+.mr-rg-85 { margin-right: 85px; }
+.mr-rg-90 { margin-right: 90px; }
+.mr-rg-95 { margin-right: 95px; }
+.mr-rg-100 { margin-right: 100px; }

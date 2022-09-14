@@ -1,0 +1,70 @@
+.container-header{
+    width: 100%;
+    display: grid;
+    background-color: blueviolet;
+    margin-top: -21px;
+    z-index: 999;
+}
+.container-header .info{
+    text-align: center;
+}
+.container-header .info .name{
+    font-size: 22px;
+    margin-top: 5px;
+    color: rgb(15, 174, 214);
+}
+.container-header .info .social{
+    font-size: 22px;
+    margin-top: 15px;
+}
+.container-header .info .social .fa{
+    margin: 0px 5px;
+    padding-top: 8px;
+    width: 40px;
+    height: 40px;
+    color: rgb(15, 174, 214);
+    transition: .25s;
+    cursor: pointer;
+}
+.container-header .info .social .fa-instagram{
+    margin: 0px 14px;
+    padding-top: 8px;
+    padding-left: 1px;
+    width: 40px;
+    height: 40px;
+    color: rgb(15, 174, 214);
+    transition: .25s;
+}
+.container-header .info .social .fa:hover{
+    background-color: rgb(15, 174, 214);
+    color: white;
+    transition: .25s;
+    border-radius: 100%;
+}
+.container-header .info .title{
+    font-size: 40px;
+    margin-top: 40px;
+    color: white;
+}
+.container-header .info .text{
+    font-size: 22px;
+    margin-top: 10px;
+    color: white;
+}
+.container-header .info .btn{
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: solid 2px rgb(15, 174, 214);
+    color: rgb(15, 174, 214);
+    margin-top: 40px;
+    transition: .3s;
+    margin: 15px 20px 0px 20px;
+}
+.container-header .info .btn:hover{
+    background-color: rgb(15, 174, 214);
+    transform: scale(107%);
+    transition: .3s;
+    color: white;
+}

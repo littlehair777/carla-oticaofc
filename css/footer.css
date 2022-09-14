@@ -1,0 +1,79 @@
+.container-footer{
+    width: 100;
+    height: auto;
+    display: grid;
+    background-color: blueviolet;
+    padding: 6% 5%;
+}
+.container-footer .container-social{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.container-footer .container-social .fa-facebook{
+    color: rgb(15, 174, 214);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 0px 10px;
+    padding: 9px 13px;
+}
+.container-footer .container-social .fa-instagram{
+    color: rgb(15, 174, 214);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 0px 10px;
+    padding: 9px 10px;
+}
+.container-footer .container-social .fa-youtube-play{
+    color: rgb(15, 174, 214);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 0px 10px;
+    padding: 9px 9px;
+}
+.container-footer .container-social .fa:hover{
+    color: white;
+    background-color: rgb(15, 174, 214);
+    border-radius: 100%;
+    transition: .25s;
+}
+.container-footer .container-address{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.container-footer .container-address .address .fa{
+    color: rgb(15, 174, 214);
+    margin-right: 5px;
+    transition: .25s;
+}
+.container-footer .container-address .phone .fa{
+    color: rgb(15, 174, 214);
+    margin-right: 5px;
+    transition: .25s;
+}
+.container-footer .container-address .email .fa{
+    color: rgb(15, 174, 214);
+    margin-right: 5px;
+    transition: .25s;
+}
+.container-footer .container-address .address{
+    font-size: 22px;
+    color: white;
+}
+.container-footer .container-address .phone{
+    font-size: 22px;
+    margin-top: 10px;
+    color: white;
+}
+.container-footer .container-address .email{
+    font-size: 22px;
+    margin-top: 10px;
+    color: white;
+}

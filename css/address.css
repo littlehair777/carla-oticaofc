@@ -1,0 +1,38 @@
+.container-loja .title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+.container-loja{
+    margin-bottom: 80px;
+}
+.container-loja .container-address{
+    display: grid;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container-loja .container-address .info{
+    margin: 0px 20px;
+}
+.container-loja .container-address .info .title{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.container-loja .container-address .info .address{
+    font-size: 21px;
+}
+.container-loja .container-address .info .address .fa{
+    color: blueviolet;
+    margin-right: 5px;
+}
+.container-map{
+    width: 100%;
+    height: 50vh;
+}
+.container-map .map{
+    width: 100%;
+    height: 50vh;
+    border-radius: 4px;
+}

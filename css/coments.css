@@ -1,0 +1,66 @@
+.coments-title{
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 80%;
+    max-width: 1500px;
+    margin: 50px auto;
+}
+.swiper{
+    padding-top: 40px;
+}
+.swiper figure{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: ease .5s;
+    border-radius: 4px;
+}
+.swiper figure img{
+    object-fit: cover;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 30px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    transition: ease .5s;
+    border-radius: 4px;
+}
+.swiper figure blockquote, .swiper figure figcaption{
+    text-align: center;
+}
+.swiper figure blockquote{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.swiper figure figcaption{
+    font-size: 28px;
+    color: blueviolet;
+}
+.swiper figure:hover{
+    transform: translateY(-10px);
+}
+.swiper figure:hover{
+    transform: scale(105%);
+}
+.swiper .swiper-pagination{
+    position: relative;
+    bottom: inherit;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper .swiper-pagination .swiper-pagination-bullet-active{
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+}

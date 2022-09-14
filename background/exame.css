@@ -1,0 +1,45 @@
+.container-exame{
+    background-image: url("about1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    width: auto;
+    height: auto;
+}
+.container-exame .opacity{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+.container-exame .content{
+    height: auto;
+    text-align: left;
+}
+.container-exame .content .name{
+    color: white;
+}
+.container-exame .content .titulo{
+    color: white;
+    margin-top: 20px;
+}
+.container-exame .content .text{
+    color: white;
+    margin-top: 20px;
+}
+.container-exame .content .btn{
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: solid 2px blueviolet;
+    color: blueviolet;
+    margin-top: 40px;
+    transition: .3s;
+    margin-top: 20px;
+}
+.container-exame .content .btn:hover{
+    background-color: blueviolet;
+    transform: scale(107%);
+    transition: .3s;
+    color: white;
+}   
